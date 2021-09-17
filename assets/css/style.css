@@ -1,5 +1,164 @@
 body{
     background-color: green;
-    background-image: url(../image/congo-river.jpg);
+    background-image: url(../image/congo-river.jpg); /* I do not want duplicates of the same image*/
+    font-family: "Raleway", sans-serif;
+    color: #1c2058;
+    text-align: center;
+}
+
+/* --------- Heading */
+.heading{
+    text-align: center;
+    font-size: 1.9rem;  
+    font-weight: bolder;
+    text-transform: uppercase; 
+}
+
+/* the box for the question and options*/
+.quiz-area{
+    background-color: #e6ecf09e;
+    box-sizing: border-box;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.question{
+    width: 50%;
+    font-size: 1.5rem;
+    margin: auto;
+    padding: 25px 0; 
+    font-weight: bold;
+}
+
+.question-area span {
+    padding: 0 15px;
+}
+
+.score-area {
+    margin: 1px auto;
+    width: 60%;
+    font-size: 1.2rem;
+}
+
+#score {
+    color: green;
+    font-weight: bold;
+    text-align: left;
+}
+
+#incorrect {
+    color: red;
+    font-weight: bold;
+    text-align: right;
+}
+
+.scores {
+    display: inline-block;
+    padding: 30px;  /* Makes the two closer together*/
+}
+
+
+/* --------- Buttons */
+.btn {  /* the next button*/
+    width: 250px;
+    height: 40px;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(49, 180, 73);
+}
+
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn--option:active,
+.btn--option:hover{
+    background-color: teal;
+    color: yellowgreen;
+}
+.btn--option::after{
+    content: attr(data-type);
+    font-size: 1rem;
+    color: red;
+    position:relative;
+    left: -0.5em;
+}
+
+.btn--next {
+    margin-top: 25px;
+    background-color: #3a8367;
+    border: 1px transparent;
+    border-radius: 20px;
+}
+
+.btn--next:active,
+.btn--next:hover {
+    background-color: #2e553d;
+}
+
+/* --------- Media queries */
+
+@media (max-width: 414px) {
+    .controls-area {
+        width: 100%;
+    }
+}
+
+.btn--option{ 
+    margin: 18px;
+    padding: 20px;
+    border: 3px solid;
+    width: 200px;
+    height: 60px;
+    font-size: 1.5rem;
+}
+
+.btn--option::after {
+    font-size: 0.6rem;
+    left: -0.7rem;
+}
+
+.quiz-area {
+    padding: 5% 0;
+    width: 100%;
+}
+
+.btn--next {
+    margin: 20px 10px 0px 1px;
+}
+
+.score-area {
+    width: 100%;
+}
+
+.scores {
+    margin: 0.5em auto;
+    display: block;
+    padding: 5px;
+}
+
+.heading {
+    font-size: 2rem;
+}
+
+@media (max-width: 320px) {
+    .quiz-area {
+        height: 70vh;
+    }
+
+ 
+    .btn--option {
+        margin: 10px 10px;
+    }
+    .quiz-area {
+        padding: 10px 0;
+    }
+
 }
 

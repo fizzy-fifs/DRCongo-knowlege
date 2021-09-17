@@ -22,22 +22,21 @@
         </h1>
         
         <div class="quiz-area">
-            <div class="questions">
+            <div class="question">
                 Sample question
             </div>
             <div class="Options">
-                <button class="btn btn--big btn"> option1 </button>
-                <button class="btn btn--big btn"> option2 </button>
-                <button class="btn btn--big btn"> option3 </button>
-                <button class="btn btn--big btn"> option4</button>                
+                <button class="btn btn--option btn"> option1 </button>
+                <button class="btn btn--option btn"> option2 </button>
+                <button class="btn btn--option btn"> option3 </button>
+                <button class="btn btn--option btn"> option4</button>                
             </div>
-            <button class="btn btn--grey"> Next Question </button>
-
+            <button data-type="submit" class="btn btn--next"> Next Question </button>
+            <div class="score-area">
+                <p class="scores">Correct Answers <span id="score">0</span></p>
+                <p class="scores">Wrong Answers <span id="incorrect">0</span></p>    
         </div>
-        <div class="score-area">
-            <p class="scores">Correct Answers <span id="score">0</span></p>
-            <p class="scores">Wrong Answers <span id="incorrect">0</span></p>
-
+       
         </div>
     </div>
 
