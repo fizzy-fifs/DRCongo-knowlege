@@ -101,8 +101,8 @@ body{
     background-color: #2e553d;
 }
 
-/* --------- Media queries */
 
+/* --------- Media queries */
 @media (max-width: 414px) {
     .controls-area {
         width: 100%;
@@ -160,4 +160,3 @@ body{
     }
 
 }
-
