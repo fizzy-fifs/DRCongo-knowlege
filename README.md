@@ -28,7 +28,12 @@ Please Familiarise yourself with the different sections to the quiz below.
 
 ## Testing 
 
-the quiz is responsive on every device. during testing noticed the the score does not change. Also the correct answers are not responding at all. 
+- the quiz is responsive on every device. during testing noticed the the score does not change. Also the correct answers are not responding at all. 
+- I can confirm that the game results are not correct. 
+- I can confirm that all code is easy to read
+- I can confirm that the colors used fit the theme
+
+[devTool LightHouse Report](https://github.com/W4n1/DRCongo-knowlege/blob/3b8d58459c6cded3dfb997c093e8defa972ca8b5/assets/image/testingOnDev.PNG)
 
 
 ### Validator Testing 
@@ -41,8 +46,8 @@ the quiz is responsive on every device. during testing noticed the the score doe
   -8 warning are present no errors  [JSHint](https://jshint.com/)
 
 ### Unfixed Bug
-
-There are no unfixed bugs just a few warning that need to look into. 
+- my codes currently does not add up until near the end 
+- the correct is not being identified
 
 ## Deployment
 
