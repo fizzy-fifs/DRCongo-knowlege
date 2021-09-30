@@ -2,7 +2,7 @@
 
 DRCongo stands for Democractic Republic of Congo. DRCongo Knowledge is a quiz that hopes to be used for different charity organisation websites to entice their users in wanting to know more about the african country it self. For users, it is a test to asses their knowledge in relation to the country at hand.  
 
-![Responsice Mockup](https://github.com/W4n1/DRCongo-knowlege/blob/df67c535fc35e50dd7b93ecdea6a3347e7c84669/assets/image/responsive%20image.PNG)
+![Responsice Mockup](https://github.com/W4n1/DRCongo-knowlege/blob/0fac331c41dc6d9d5ffd1195e44d9a5fc045d625/assets/image/responsive%20image.PNG)
 
 ## Features 
 
@@ -14,26 +14,21 @@ Please Familiarise yourself with the different sections to the quiz below.
 
   -featured throughout the quiz. Once the start button is clicked, it is deactivated and activates and reveals the questions and options to user.. 
   -background includes the image of the Congo river which is in theme with what the quiz is all about.
+  -Once user clicks on option, a transition occur to the next question automatically
 
-![H1 , p and start button](https://github.com/W4n1/DRCongo-knowlege/blob/52f63a09dacb62243a78d1eac06ceb67d5ee36e0/assets/image/Start%20Section.PNG)
+![H1 , p and start button](https://github.com/W4n1/DRCongo-knowlege/blob/0fac331c41dc6d9d5ffd1195e44d9a5fc045d625/assets/image/fullPage.PNG)
 
 
 ### Features Left to Implement
 
-- the styling of the different buttoms. differciate them from the start button to the options and next button
-- Add a "you have completed the quiz" message to the user
+- the styling of the different buttos. Differciate them from the start button to the options and next button
 - Add a pop up notification providing more intel as to why the answer is what it is. To happen in the occassion where a user gets the answer wrong. 
 - attempt to make the start button disappear once clicked and for there to be a zoomed focus on to the question box once user has start the quiz.
+- Update the score:0 to update on ever question not just at the end
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+the quiz is responsive on every device. during testing noticed the the score does not change. Also the correct answers are not responding at all. 
 
 
 ### Validator Testing 
@@ -43,7 +38,7 @@ If this section grows too long, you may want to split it off into a separate fil
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=+++https%3A%2F%2Fw4n1.github.io%2FDRCongo-knowlege%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 - JavaScript
-  -5 warning are present no errors  [JSHint](https://jshint.com/)
+  -8 warning are present no errors  [JSHint](https://jshint.com/)
 
 ### Unfixed Bug
 
@@ -64,10 +59,6 @@ https://w4n1.github.io/DRCongo-knowlege/
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
 - the answer were conducted by me after having search for the most interest Congo facts. 
@@ -79,21 +70,3 @@ You can break the credits section up into Content and Media, depending on what y
 ### Media
 - The images used for the background were taken from Google images [Congo River from Google](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.worldwildlife.org%2Fplaces%2Fcongo-basin&psig=AOvVaw0Vfhd82iJqzaoM_4kXnYjD&ust=1633081825023000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKjpyoa2pvMCFQAAAAAdAAAAABAL)
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
