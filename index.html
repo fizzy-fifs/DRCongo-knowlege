@@ -22,19 +22,29 @@
         <button id="start-button" onclick="startQuiz();">Start</button>
       </header>
 
-      <section class="quiz-area">
-        <p id="question-text">Click 'Start' to start the quiz.</p>
-        <div class="question-options">
-          <ol>
-            <li><button id="option1" onclick="clickOption(0)">???</button></li>
-            <li><button id="option2" onclick="clickOption(1)">???</button></li>
-            <li><button id="option3" onclick="clickOption(2)">???</button></li>
-            <li><button id="option4" onclick="clickOption(3)">???</button></li>
-          </ol>
+      <section id="quiz-area">
+        <div id="quiz-main">
+          <p id="question-text">Click 'Start' to start the quiz.</p>
+          <div class="question-options">
+            <ol>
+              <li>
+                <button id="option1" onclick="clickOption(0)">???</button>
+              </li>
+              <li>
+                <button id="option2" onclick="clickOption(1)">???</button>
+              </li>
+              <li>
+                <button id="option3" onclick="clickOption(2)">???</button>
+              </li>
+              <li>
+                <button id="option4" onclick="clickOption(3)">???</button>
+              </li>
+            </ol>
+          </div>
         </div>
-        <button class="next" onclick="nextQuestion();">Next</button>
 
-        <div id="score">SCORE: <span id="score-value">0</span></div>
+        <p id="finish">You have completed the quiz!</p>
+        <p id="score">SCORE: <span id="score-value">0</span></p>
       </section>
     </main>
 
