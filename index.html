@@ -1,47 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- google font used below-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
-    <meta name="description" content=" testing user knowledge of democratic republic of congo through knowledge quiz">
-    <meta name="keywords" content=" congo quiz, DRC quiz, Dr Congo quiz, Zaire quiz, democratic republic quiz, knowledge of congo quiz, africa quiz, ">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>DR.Congo Knowledge Quiz</title>
-</head>
-<body>
-    <div class="background-image" >
-                <h1 class="heading">
-            How much do you know about Dr. Congo?
-        </h1>
-        
-        <div class="quiz-area">
-            <div class="question-container">
-                Sample question
-            </div>
-            <div class="Options">
-                <button data-type="option1" class="btn btn--option "> option1 </button>
-                <button data-type="option2" class="btn btn--option "> option2 </button>
-                <button data-type="option3" class="btn btn--option "> option3 </button>
-                <button data-type="option4" class="btn btn--option "> option4</button>                
-            </div>
-            <button data-type="submit" id="next" class="btn btn--next"> Next Question </button>
-            <button id="submit"> Submit Quiz</button>
-            <div id= "results"> </div>
-            <div class="score-area">
-                <p class="scores">Correct Answers <span id="score">0</span></p>
-                <p class="scores">Wrong Answers <span id="incorrect">0</span></p>    
+    <title>Democratic Republic of Congo Knowledge Quiz</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>How much do you know about Dr. Congo?</h1>
+        <p>Test your geographical knowledge about Congo with our quiz!</p>
+        <button id="start-button" onclick="startQuiz();">Start</button>
+      </header>
+
+      <section class="quiz-area">
+        <p id="question-text">Click 'Start' to start the quiz.</p>
+        <div class="question-options">
+          <ol>
+            <li><button id="option1" onclick="clickOption(0)">???</button></li>
+            <li><button id="option2" onclick="clickOption(1)">???</button></li>
+            <li><button id="option3" onclick="clickOption(2)">???</button></li>
+            <li><button id="option4" onclick="clickOption(3)">???</button></li>
+          </ol>
         </div>
-       
-        </div>
-    </div>
+        <button class="next" onclick="nextQuestion();">Next</button>
+
+        <div id="score">SCORE: <span id="score-value">0</span></div>
+      </section>
+    </main>
 
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
