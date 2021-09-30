@@ -1,108 +1,99 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# DRCongo Knowledge 
 
-Welcome W4n1,
+DRCongo stands for Democractic Republic of Congo. DRCongo Knowledge is a quiz that hopes to be used for different charity organisation websites to entice their users in wanting to know more about the african country it self. For users, it is a test to asses their knowledge in relation to the country at hand.  
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsice Mockup](https://github.com/W4n1/DRCongo-knowlege/blob/df67c535fc35e50dd7b93ecdea6a3347e7c84669/assets/image/responsive%20image.PNG)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Features 
 
-## Gitpod Reminders
+Please Familiarise yourself with the different sections to the quiz below. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Existing Features
 
-`python3 -m http.server`
+-__start section__
 
-A blue button should appear to click: _Make Public_,
+  -featured throughout the quiz. Once the start button is clicked, it is deactivated and activates and reveals the questions and options to user.. 
+  -background includes the image of the Congo river which is in theme with what the quiz is all about.
 
-Another blue button should appear to click: _Open Browser_.
+![H1 , p and start button](https://github.com/W4n1/DRCongo-knowlege/blob/52f63a09dacb62243a78d1eac06ceb67d5ee36e0/assets/image/Start%20Section.PNG)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+### Features Left to Implement
 
-Another blue button should appear to click: _Open Browser_.
+- the styling of the different buttoms. differciate them from the start button to the options and next button
+- Add a "you have completed the quiz" message to the user
+- Add a pop up notification providing more intel as to why the answer is what it is. To happen in the occassion where a user gets the answer wrong. 
+- attempt to make the start button disappear once clicked and for there to be a zoomed focus on to the question box once user has start the quiz.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Testing 
 
-To log into the Heroku toolbelt CLI:
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-------
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Validator Testing 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- HTML
+  - No errors but there is a warning of " Section lacks heading"  were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=+++https%3A%2F%2Fw4n1.github.io%2FDRCongo-knowlege%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+- JavaScript
+  -5 warning are present no errors  [JSHint](https://jshint.com/)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Unfixed Bug
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+There are no unfixed bugs just a few warning that need to look into. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Deployment
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Project is deployed to the GITHUB hosting platform.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the main Branch
+  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The live link can be found here - 
+https://w4n1.github.io/DRCongo-knowlege/ 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Credits 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Content 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- the answer were conducted by me after having search for the most interest Congo facts. 
+- Instructions on how to implement form validation on the Sign Up page was taken from 
+[YouTube Tutorial](https://www.youtube.com/watch?v=2Bpiluefkh8&t=1352s&ab_channel=KindsonTheTechPro)
+[website](https://www.kindsonthegenius.com/javascript/quiz-app-in-javascript-step-by-step-with-all-codes/)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+### Media
+- The images used for the background were taken from Google images [Congo River from Google](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.worldwildlife.org%2Fplaces%2Fcongo-basin&psig=AOvVaw0Vfhd82iJqzaoM_4kXnYjD&ust=1633081825023000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKjpyoa2pvMCFQAAAAAdAAAAABAL)
 
-## FAQ about the uptime script
+Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
-**Why have you added this script?**
+## Other General Project Advice
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
 
-**How will this affect me?**
+- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
+  - Make sure to keep the messages in the imperative mood 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
+  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
+  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
+  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
+  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
