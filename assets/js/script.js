@@ -79,7 +79,7 @@ function restartQuiz() {
 function nextQuestion() {
   const currentQuestion = quizQuestions[currentIndex];
 
-  if (currentIndex === quizQuestions.length - 1) {
+  if (currentIndex === quizQuestions.length) {
     finishQuiz();
   } else {
     document.getElementById('question-text').innerHTML =
@@ -90,14 +90,11 @@ function nextQuestion() {
     document.getElementById('option4').innerHTML = currentQuestion.options[3];
 
     currentIndex++;
-    console.log(currentIndex)
   }
 }
 
 function clickOption(selectedOption) {
   const currentQuestion = quizQuestions[currentIndex - 1];
-  console.log('SELECTED OPTION:' + selectedOption)
-  console.log('Correct answer:' + currentQuestion.correctAnswer)
   if (currentQuestion.correctAnswer === selectedOption) {
     
     setScore(score + 1);
