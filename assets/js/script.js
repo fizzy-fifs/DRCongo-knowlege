@@ -1,3 +1,5 @@
+// const { Console } = require("console");
+
 const quizQuestions = [
   {
     id: 1,
@@ -88,12 +90,16 @@ function nextQuestion() {
     document.getElementById('option4').innerHTML = currentQuestion.options[3];
 
     currentIndex++;
+    console.log(currentIndex)
   }
 }
 
 function clickOption(selectedOption) {
-  const currentQuestion = quizQuestions[currentIndex];
+  const currentQuestion = quizQuestions[currentIndex - 1];
+  console.log('SELECTED OPTION:' + selectedOption)
+  console.log('Correct answer:' + currentQuestion.correctAnswer)
   if (currentQuestion.correctAnswer === selectedOption) {
+    
     setScore(score + 1);
   }
   nextQuestion();
